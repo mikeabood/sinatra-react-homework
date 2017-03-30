@@ -1,0 +1,32 @@
+{
+  "name": "sinatra-react-homework",
+  "version": "1.0.0",
+  "description": "1. Fork and Clone this repo. 2. Create a RESTful api for a model of your choosing in Sinatra. 3. Create a React Native Application that performs CRUD actions on that model.",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-react": "^6.23.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "superagent": "^3.5.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeabood/sinatra-react-homework.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeabood/sinatra-react-homework/issues"
+  },
+  "homepage": "https://github.com/mikeabood/sinatra-react-homework#readme"
+}
