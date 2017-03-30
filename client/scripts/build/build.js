@@ -57,7 +57,10 @@ var MainComponent = React.createClass({
   createItem: function (item) {
     var state = this.state;
     var self = this;
-    request.post('http://localhost:9393/items').send("title=" + item).end(function (err, data) {
+    request.post('http://localhost:9393/items').type('form').send({ title: item }).end(function (err, data) {
+      state.data = data.body;
+      self.setState(state);
+
       console.log(data);
     });
   },
